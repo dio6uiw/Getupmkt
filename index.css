@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans:wght@600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato&family=Montserrat:wght@300&family=Noto+Sans:wght@600&family=Open+Sans&display=swap');
 
 *{
     margin: 0px;
@@ -13,7 +13,7 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(22, 22, 22);
-    gap: 330px;
+    gap: 400px;
 }
 
 header img{
@@ -101,7 +101,7 @@ svg {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 0px;
+    gap: 70px;
     padding-top: 30px;
 }
 
@@ -120,7 +120,7 @@ svg {
 .text p{
     color: rgb(228, 228, 228);
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 15px;
 }
 
@@ -175,6 +175,7 @@ svg {
     gap: 130px;
 }
 
+
 .explic .text img{
     height: 60px;
 }
@@ -193,6 +194,9 @@ svg {
     border: 1px solid rgb(53, 53, 53); 
     padding: 35px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container-info button{
@@ -214,7 +218,7 @@ svg {
 }
 
 .container-info p{
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Open Sans', sans-serif;
 }   
 
@@ -247,53 +251,62 @@ svg {
 }
 
 .inst{
-    gap: 50px;
+    gap: 60px;
     text-align: center;
     margin: auto;
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .box{
     flex-direction: column;
-    background-color: rgb(11, 11, 11);
-    height: 180px;
-    border-radius: 5px;
-    width: 170px;
+    background-color: rgb(22, 22, 22);
+    height: 225px;
+    border-radius: 5px, 0px;
+    width: 220px;
+    margin: 0px;
+}
+
+.box hr{
+    width: 220px;
+    border-radius: 0px;
+    border: 0;
+    height: 5px;
+    margin-top: 40px;
 }
 
 .box p{
     color: rgb(201, 201, 201);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    margin-top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .box img{
-    height: 40px;
+    height: 65px;
     position: relative;
-    top: -20px;
+    top: -30px;
 }
 
 .serviços button{
-    background-image: linear-gradient(110deg, #623cf8 0, #507ae8 12.5%, #6976e3 25%, #7e71de 37.5%, #8f6cd8 50%, #9e67d1 62.5%, #ab61c9 75%, #b75cc0 87.5%, #c157b7 100%);
-    color: white;
-    margin-top: 50px;
+    margin-top: 70px;
     height: 40px;
-	width: 210px;
+	width: 250px;
     border: 0px;
-	font: bold 12px arial,sans-serif;
-	text-shadow: none;
-}
-
-.serviços button:hover{
-    transition: 1s ease-in-out;
+	font: bold 14px arial,sans-serif;
+	text-shadow: none;  
     background: #ffffff;
     color: #7252fb;
     border: #7252fb 1px solid;
 }
 
+.serviços button:hover{
+    transition: 1s ease-in-out;
+    color: #ffffff;
+    background-color: #7252fb;
+}
 .metodo-trab{
     display: flex;
     flex-direction: row;
@@ -429,9 +442,9 @@ svg {
 .sobre-getup{
     display: flex;
     flex-direction: row;
-    background-color: #7252fb;
+    background-color: #6745ff;
     justify-content: center;
-    gap: 120px;
+    gap: 80px;
     padding-bottom: 100px;
 }
 
@@ -440,19 +453,22 @@ svg {
     padding-top: 90px
 }
 
-.sobre-getup .texto{
-    margin-top: 120px;
-}
-
 .sobre-getup p{
-    color: rgb(228, 228, 228);
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
     font-size: 13px;
 }
 
 .sobre-getup h2{
-    color: rgb(228, 228, 228);
+    color: rgb(255, 255, 255);
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
     padding-bottom: 20px;
+}
+
+.container-sobre{
+    border: 0px solid rgb(228, 228, 228); 
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 90px;
 }
